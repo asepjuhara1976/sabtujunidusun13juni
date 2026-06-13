@@ -7,20 +7,24 @@ import { Warga, RW, Iuran, TransaksiIuran, Pengajuan, Laporan, MutasiLog, User, 
 
 // Setup initial preloaded accounts
 export const SIMULATED_USERS: User[] = [
-  { id: "u0", username: "kadus", nama: "Pak Budi", role: "Admin", password: "admin123" }, // Kepala Dusun
-  { id: "u1", username: "rw01", nama: "Pak Ahmad", role: "User", rwId: "RW 01", password: "rw01" },
-  { id: "u2", username: "rw02", nama: "Ibu Ratna", role: "User", rwId: "RW 02", password: "rw02" },
-  { id: "u3", username: "rw03", nama: "Ibu Siti Aminah", role: "User", rwId: "RW 03", password: "rw03" },
-  { id: "u4", username: "rw04", nama: "Pak Bambang", role: "User", rwId: "RW 04", password: "rw04" },
-  { id: "u5", username: "rw05", nama: "Ibu Dewi", role: "User", rwId: "RW 05", password: "rw05" },
+  { id: "u0", username: "kadus", nama: "Asep Juhara", role: "Admin", password: "Joe12hara" }, // Kepala Dusun 
+  { id: "u1", username: "rw07", nama: "Pak Miftah", role: "User", rwId: "RW 07", password: "rw07m" },
+  { id: "u2", username: "rw08", nama: "Pak Darmatin", role: "User", rwId: "RW 08", password: "rw08d" },
+  { id: "u3", username: "rw09", nama: "Pak Sulam Nedi", role: "User", rwId: "RW 09", password: "rw09s" },
+  { id: "u4", username: "rw13", nama: "Pak Ajang", role: "User", rwId: "RW 13", password: "rw13a" },
+  { id: "u5", username: "rw15", nama: "Pak Fuad", role: "User", rwId: "RW 15", password: "rw15f" },
+  { id: "u6", username: "rw16", nama: "Pak endang", role: "User", rwId: "RW 16", password: "rw16e" },
+  { id: "u7", username: "rw17", nama: "Pak Jajang", role: "User", rwId: "RW 17", password: "rw17j" },  
 ];
 
 export const INITIAL_RWS: RW[] = [
-  { id: "RW 01", namaKetua: "Pak Ahmad", wilayah: "Dusun Sukamaju Bagian Utara", kontak: "0812-3456-7891" },
-  { id: "RW 02", namaKetua: "Ibu Ratna", wilayah: "Dusun Sukamaju Bagian Barat", kontak: "0821-2233-4455" },
-  { id: "RW 03", namaKetua: "Ibu Siti Aminah", wilayah: "Dusun Sukamaju Bagian Pusat", kontak: "0852-9988-7766" },
-  { id: "RW 04", namaKetua: "Pak Bambang", wilayah: "Dusun Sukamaju Bagian Selatan", kontak: "0877-4455-6622" },
-  { id: "RW 05", namaKetua: "Ibu Dewi", wilayah: "Dusun Sukamaju Bagian Timur", kontak: "0819-0011-2233" },
+  { id: "RW 07", namaKetua: "Pak Miftah", wilayah: "Dusun 3 Desa Suci", kontak: "0812-9819-2826" },
+  { id: "RW 08", namaKetua: "Pak Darmatin", wilayah: "Dusun 3 Desa Suci", kontak: "0852-2175-6060" },
+  { id: "RW 09", namaKetua: "Pak Sulam Nedi", wilayah: "Dusun 3 Desa Suci", kontak: "0813-2352-9928" },
+  { id: "RW 13", namaKetua: "Pak Ajang", wilayah: "Dusun 3 Desa Suci", kontak: "0895-3206-07565" },
+  { id: "RW 15", namaKetua: "Pak Fuad", wilayah: "Dusun 3 Desa Suci", kontak: "0813-2300-1474" },
+  { id: "RW 16", namaKetua: "Pak endang", wilayah: "Dusun 3 Desa Suci", kontak: "0819-0011-2233" },
+  { id: "RW 17", namaKetua: "Pak Jajang", wilayah: "Dusun 3 Desa Suci", kontak: "0859-7459-8866" },
 ];
 
 // Helper to compile elegant mock photos as safe Base64-encoded SVG data URIs
